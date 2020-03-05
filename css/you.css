@@ -1,0 +1,191 @@
+
+
+:root{
+    --color-white: #ffffff;
+    --color-black: black;
+    --color-primary: rgb(204,204,204);
+    --color-secondary: red;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-size: 1rem;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+a, a:hover{
+    text-decoration: none;
+}
+
+p{
+    font-size: 1.6rem;
+    font-weight: 200;
+}
+
+li{
+    list-style: none;
+}
+
+/***************Navbar*********************/
+/***************************************/
+
+.navbar-collapse input{
+    width: 30rem;
+    height: 3rem;
+    margin-left: 25rem;
+}
+
+.navbar-collapse button{
+    width: 6rem;
+    height: 3rem;
+    margin-right: 40rem;
+}
+
+.circle-avatar1{
+    width:3rem ;
+    height: 3rem;
+    border-radius: 100%;
+    background-color: var(--color-primary);
+    margin-right: .5rem;
+}
+
+.navbar-collapse{
+    display: flex;
+    justify-content: space-between;
+}
+
+/*****************sidebar*****************/
+/*******************************************/
+.sidebar{
+    width: 26rem;
+    height: 100vh;
+    position: fixed;
+    scroll-behavior: smooth;
+}
+
+.sidebar-brand{
+    display: flex;
+    margin: 1rem 1rem;
+}
+
+.sidebar-brand h1{
+    color:black;
+    margin-left: .5rem;
+}
+
+.rouge{
+    width: 3rem;
+    height: 2rem;
+    background-color:var(--color-secondary);
+    border-radius: .7rem;
+    margin-top: .5rem;
+}
+
+.lignes{
+    display: flex;
+}
+
+.info{
+    margin: 2rem  3rem;
+}
+
+.info ul{
+    margin: 1rem auto;
+}
+
+.info ul li{
+    margin: 2rem auto;
+}
+
+.info ul li a{
+    color: var(--color-black);
+    font-size: 1.5rem;
+    margin-left: 1.5rem;
+}
+
+.btn{
+    height: 05rem;
+    width: 13rem;
+    font-size: 1.5rem;
+    padding: 1rem 1rem;
+    border: 2px solid rgb(99, 99, 233);
+    background-color: transparent;
+    color: rgb(99, 99, 233);
+}
+
+.btn p{
+    padding-top: -3rem;
+}
+
+/****************CARDS************************/
+/*********************************************************/
+
+.rows{
+    margin-left: 27rem;
+    background-color: rgb(250,250,250);
+}
+
+.row{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 7rem;
+}
+
+.card-you{
+    width: 32rem;
+    margin-left: .7rem;
+}
+
+.card-illustration{
+    width: 25rem;
+    height: 15rem;
+    background-color:var(--color-primary) ;
+}
+
+.card-description{
+    margin-top: 2rem;
+}
+
+.circle-avatar{
+    width:3rem ;
+    height: 3rem;
+    border-radius: 100%;
+    background-color: var(--color-primary);
+
+}
+
+.input{
+    margin-left: 4rem;
+    margin-top: -3.2rem;
+}
+
+.inp-1{
+    width: 17rem;
+    margin-bottom: .7rem;
+    height: 1.5rem;
+}
+
+.inp-2{
+    width: 13rem;
+    height: 1.5rem;
+}
+
+.inp-1,.inp-2{
+    background-color: var(--color-primary);
+}
+
+.row-1,.row-2{
+    margin-top: .7rem;
+    margin-right: 7rem;
+}
